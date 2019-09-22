@@ -1,0 +1,25 @@
+<!doctype>
+<html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <title>facebook vs twitter</title>
+</head>
+
+<body>
+<h1>click on facebook or twitter to get counted</h1>
+<div>
+    <button class="btn btn-primary"  onClick="ft()">facebook </button>
+    <button class="btn btn-primary"  onClick="ft()">twitter</button>
+</div>
+    <p>Count:<span id="add">0</span></p>
+    <script>
+        var count = 0;
+        function ft() {
+            count =count+1;
+            document.getElementById("add").innerHTML = count;
+        };
+        </script>
+	
+
+</body>
+</html>
