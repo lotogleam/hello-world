@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="fbi">
+            <button id="btn1" value="fb" onclick="counterfb()"><h2>Facebook</h2></button>
+            <button id="btn2" value="ig" onclick="counterig()"><h2>Instagram</h2></button>
+        </div>
+        <div class="counter">
+                <h3 id="fbcounts">Clicks: 0</h3>
+                <h3 id="igcounts">Clicks: 0</h3>
+        </div>
+
+
+        <script>
+            var count=0;
+            var counts=0;
+            var a=document.getElementById("btn1").value;
+            var b=document.getElementById("btn2").value;    
+            function counterfb(){
+                    count=count+1;
+                    document.getElementById("fbcounts").innerHTML="Clicks:"+count;
+            }
+            function counterig(){
+                    counts=counts+1;
+                    document.getElementById("igcounts").innerHTML="Clicks:"+counts;
+               
+            }
+
+
+        </script>
+    </body>
+</html>
