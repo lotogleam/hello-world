@@ -1,0 +1,17 @@
+.fb{
+    color:rgb(58, 58, 219);
+    font-size: 50px;
+}
+.twtr{
+    color:rgb(73, 178, 219);
+    font-size: 50px;
+}
+.vbtn{
+    padding-top:10px; 
+}
+.count{
+    font-size:50px;
+}
+.reset{
+    background-color: rgb(77, 75, 75);
+}
