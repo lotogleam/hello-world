@@ -4,15 +4,23 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>my-first-website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
   <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <script src="./script/app.js"></script>
 </head>
 
 <body>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+  <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
+  <!-- Change this code here by copy and pasting your template on line 15 -->
+  <p>Hello World! <span id="intro"></span></p>
+  <div class="container text-center">
+    <div class="row">
+      <input type="text" class="form-control user-name" placeholder="Enter Your Name"/>
+    </div>
+    <br/>
+      <button class="btn btn-primary" onclick="updateContent()"> Display Your Name</button>
+  </div>
 </body>
 </html>
