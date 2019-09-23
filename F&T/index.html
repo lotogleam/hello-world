@@ -3,23 +3,25 @@
 <head>
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <title>facebook vs twitter</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+     <script src="asset/ft.js"></script>
+     <link href="asset/styles.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
+    <div>
 <h1>click on facebook or twitter to get counted</h1>
-<div>
-    <button class="btn btn-primary"  onClick="ft()">facebook </button>
-    <button class="btn btn-primary"  onClick="ft()">twitter</button>
 </div>
-    <p>Count:<span id="add">0</span></p>
-    <script>
-        var count = 0;
-        function ft() {
-            count =count+1;
-            document.getElementById("add").innerHTML = count;
-        };
-        </script>
-	
+<hr/>
+<div class="ft">
+      <button class="btn btn-primary"  onClick="facebook()">facebook </button>
+      <p>Count for facebook :<span id="add">0</span></p>
+</div>
+<hr/>  
+<div class="ft">
+        <button class="btn btn-primary"  onClick="twitter()" > twitter</button>
+        <p>Count for twitter :<span id="clicks">0</span></p>
+</div>
+   <hr/>
 
 </body>
 </html>
