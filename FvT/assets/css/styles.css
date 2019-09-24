@@ -1,3 +1,9 @@
+.heading{
+    background-image: -webkit-gradient( linear, left top, right top,color-stop(0.1, #2ff),color-stop(0.5, #22f), color-stop(0.7, #2ff));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
 .fb{
     color:rgb(58, 58, 219);
     font-size: 50px;
@@ -6,7 +12,7 @@
     color:rgb(73, 178, 219);
     font-size: 50px;
 }
-.vbtn{
+.vote-button{
     padding-top:10px; 
 }
 .count{
