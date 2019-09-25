@@ -1,0 +1,48 @@
+<!doctype html>
+   <html>
+       <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+       </head>
+       <h1>Number of counts by clicking on facebook and twitter</h1>
+       <div class="col-xs-6 col-sm-6 col-lg-6">
+               <button  class="btn btn-primary"  onclick="counter()">facebook</button>
+        
+       </div>
+       <div class="col-xs-6 col-sm-6 col-lg-6">
+               <button  class="btn btn-primary" onclick="counter1()">twitter</button>
+    </div>
+       <script>
+              var count=0;
+               function counter(){
+                   count=count+1;
+                   document.getElementById("fb").innerHTML=count;
+               }
+               var count1=0;
+               function counter1(){
+                   count1=count1+1;
+                   document.getElementById("tw").innerHTML=count1;
+               }
+        </script>
+        <div class="col-sm-6 col-lg-6">
+           <h1>
+                 facebook count:<span id="fb" >0</span>
+           </h1>
+        </div>
+        <div class="col-sm-6 col-lg-6">  
+           <h1>
+             twitter count:<span id="tw">0</span>
+            </h1>
+        </div>
+        
+       
+       
+
+
+
+
+
+
