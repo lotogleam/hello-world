@@ -14,18 +14,7 @@
         <p>This page counts the number of times the user presses the button.</p>
     </div>
     <div class="container text-center">
-        <div class="row">
-            <div class="col-sm-12 col-lg-4">
-                <h2>Competitors</h2>
-            </div>
-            <div class="col-sm-12 col-lg-4">
-                <h2>Cast Vote</h2>
-            </div>
-            <div class="col-sm-12 col-lg-4">
-                <h2>Count</h2>
-            </div>
-        </div>
-        <div class="row">
+        <div class="row block">
             <div class="col-sm-12 col-lg-4">
                 <span class="fab fa-facebook-square fb">Facebook</span>
             </div>
@@ -33,10 +22,10 @@
                 <button class="btn btn-primary count-button" onclick="vote()">Vote</button>
             </div>
             <div class="col-sm-12 col-lg-4 count">
-                <span class="displayCount">0</span>
+                <span class="displayCount">Count:0</span>
             </div>
         </div>
-        <div class="row">
+        <div class="row block">
             <div class="col-sm-12 col-lg-4">
                 <span class="fab fa-twitter-square twtr">Twitter</span>
             </div>
@@ -44,7 +33,7 @@
                 <button class="btn btn-primary count-button" onclick="vote1()">Vote</button>
             </div>
             <div class="col-sm-12 col-lg-4 count">
-                <span class="displayCount">0</span>
+                <span class="displayCount">Count:0</span>
             </div>
         </div>
         <div class="row">
@@ -53,11 +42,6 @@
             </div>
         </div>
     </div>
-    <footer class="py-2 bg-dark text-white-50 fixed-bottom">
-        <div class="container text-center">
-            <small>Responsive update coming soon!</small>
-        </div>
-    </footer>
 <script src="assets/script/count.js"></script>
 </body>
 </html>
