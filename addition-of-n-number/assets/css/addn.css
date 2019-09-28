@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(2, 41, 56);
+}
+
+.headingg{
+    background-color: rgba(204, 203, 203, 0.157);
+    margin-bottom: 30px;
+    padding:10px;
+}
+.input-text{
+    height:50px;
+}
+.display-solution{
+    color:red;
+    font-size: 300px;
+    text-shadow: 0px 25px 20px black;
+}
