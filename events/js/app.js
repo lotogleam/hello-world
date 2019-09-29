@@ -19,3 +19,7 @@ function performAddition(upto) {
   }
   return sum;
 }
+
+function displayWhichCode() {
+  document.getElementsByClassName("result-wrapper")[0].innerHTML = '<p class="text-center">'+event.which+'</p>';
+}

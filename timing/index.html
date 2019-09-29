@@ -3,27 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JS Events</title>
+    <title>JS Timings</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="./style/main.css" />
     <script src="./js/app.js"></script>
   </head>
-  <body onkeyup="displayWhichCode()">
+  <body onload="updateDateEverySec()">
     <header>
-      <h1 class="text-center"> Introduction to Events</h1>
+      <h1 class="text-center"> Introduction to Timing in JS</h1>
     </header>
     <div class="container">
-      <div class="row">
-        <div class="col-md-9 d-flex input-wrapper">
-            <input type="text" name="upto" placeholder="Enter a number for summation" class="form-control"/>
-            <button class="btn btn-primary sum-btn">Sum</button>
-        </div>
-        <div class="col-md-3 result-wrapper">
-
-        </div>
-      </div>  
-
+      <div class="time-wrapper">
+        <h3 class="text-center current-time"></h3>
+      </div>
     </div>
   </body>
 </html>
