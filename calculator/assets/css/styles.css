@@ -1,0 +1,11 @@
+.calculator{
+    margin-top:10vh;
+}
+.display{
+    margin-top:10px;
+}
+button{
+    height: 50px;
+    width:50px;
+    margin: 5px;
+}

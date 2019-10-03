@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PHP Test</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="container text-center">
+            <?php
+                echo "<h1>Registration Form</h1>"
+            ?>
+            <form>
+                <div class="form-group">
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="Enter name"/>
+                </div>
+                <div class="form-group">
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Enter email"/>
+                </div>
+                <div class="form-group">
+                <label>Batch:</label>
+                <input type="batch" name="batch" placeholder="Enter batch"/>
+                </div>
+                <div class="form-group">
+                <input type="submit" name="submit" class="btn btn-default"/> 
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,13 +1,23 @@
-var counter = 0;
-var countButton = document.getElementsByClassName("count-button")[0];
-var displayCount = document.getElementsByClassName("displayCount")[0];
+
+var counter;
+var countButton;
+var displayCount;
+var count;
+var countButton1;
+var displayCount1;
+
+function initialize(){
+ counter = 0;
+ count=0;
+ countButton = document.getElementsByClassName("count-button")[0];
+ displayCount = document.getElementsByClassName("displayCount")[0];
+ countButton1 = document.getElementsByClassName("count-button")[1];
+ displayCount1 = document.getElementsByClassName("displayCount")[1];
+}
 function vote(){
   counter=counter+1;
   displayCount.innerHTML = "Count:" + counter;
 }
-var count=0;
-var countButton1 = document.getElementsByClassName("count-button")[1];
-var displayCount1 = document.getElementsByClassName("displayCount")[1];
 function vote1(){
   count=count+1;
   displayCount1.innerHTML = "Count:" + count;

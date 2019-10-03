@@ -1,0 +1,11 @@
+.heading h2{
+    padding: 10px 0px; 
+}
+
+body{
+    background-image: url("");
+    background-color: white;
+}
+.hide{
+    display: none;
+}
