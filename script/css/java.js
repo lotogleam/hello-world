@@ -10,4 +10,30 @@ function dis(N) {
   
   function output(){
     val = document.getElementById("num").value;
-    document.getElementById("input").innerHTML=dis(val) + " is the sum of given number";  }
+    document.getElementById("input").innerHTML=dis(val) + " is the sum of given number"; 
+    console.log(event);
+  }
+function code(){
+  document.getElementById("num").innerText=event.which;
+}
+ 
+   function updatetime(){
+   setInterval(function(){
+       document.getElementsByClassName("dat").innerHTML=new Date();
+
+   },1000);
+  }
+
+
+
+    
+      
+    
+  
+  
+      
+    
+    
+    
+    
+  
