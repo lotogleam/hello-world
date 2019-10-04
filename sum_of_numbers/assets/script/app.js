@@ -17,7 +17,6 @@ function addsum(){
      console.log(event);
  }
  function validateClick() {
-    console.log(event);
     if(event.which === 83) {
      addsum();
     }
