@@ -26,3 +26,13 @@ function output(){
     else
     display.value=result;
 }
+function keyboard(){
+   var keyEvent=event.which; 
+    if (keyEvent==8) {
+        clr();
+    } 
+    else
+    if (keyEvent==13){
+        output();
+    }
+}
