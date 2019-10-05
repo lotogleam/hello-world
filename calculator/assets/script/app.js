@@ -1,7 +1,4 @@
 var display=document.getElementsByClassName("display")[0];
-function initiate(){
-    document.getElementsByTagName("button").disabled= true;
-}
 function on(){
     display.placeholder=0;
     display.value="";
@@ -9,7 +6,6 @@ function on(){
 function off(){
     display.placeholder="";
     display.value="";
-    document.getElementsByClassName("on")[0].disabled= true;
 }
 function clr() {
     var clear  = display.value;
@@ -20,5 +16,13 @@ function input(num){
 }
 function output(){
     var result=eval(display.value);
+    if (result==undefined){
+        display.value="0";
+    }
+    else
+    if(result==Infinity){
+        display.value="Cannot be divided by 0";
+    }
+    else
     display.value=result;
 }
