@@ -3,11 +3,15 @@
 function sum1()
 {
     var n= document.getElementsByClassName("user-name")[0];
-    add=0;
-     for(i=0;i<=n.value;i++) 
-     {
-         add=add+i;
-     } 
+    n=parseInt(n.value);
+    add=(n*(n+1))/2;
      var elem=document.getElementById("add");
    elem.innerHTML="the value of sum is " +add; 
+   console.log(event);
 }
+function validation() {
+   if(event.which === 83) {
+    sum1();
+   }
+ }
+

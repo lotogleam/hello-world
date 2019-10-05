@@ -7,11 +7,11 @@
   <script src="../script/sum.js"></script>
 </head>
 
-<body>
-  <center><h2>this program perform sum of n-numbers</h2></center>
+<body onkeyup="validation()">
+  <h2 text-align="center">this program perform sum of n-numbers</h2>
   <div class="container text-center">
     <div class="row">
-      <input type="number" class="form-control user-name" placeholder="Enter the number"/>
+      <input type="number" class="form-control user-name" onkeyup="getWhichCode()" placeholder="Enter the number"/>
     </div>
     <br/>
       <button class="btn btn-primary" onclick="sum1()"> submit</button>
