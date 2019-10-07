@@ -1,0 +1,61 @@
+<html>
+<head>
+    <style>
+    .d_none
+        {
+        display:none;
+        }
+     </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function()
+{   
+        $(".people").on("click",".person",function()
+        { 
+        $(this).siblings(".details").toggleClass("d_none");
+        });
+    $(".save").click(function(){
+    let user_name=$(".new_name").val();
+    let user_details=$(".new_info").val();
+    let personHtml='<div class="name"><h2 class="person">'+user_name+'</h2><div class="details d_none"><p>'+user_details+'</p></div></div>';
+    $(".people").append(personHtml);
+});
+});
+
+ </script>
+</head>
+<body>
+<h2 >jQuery program</h2><br/><br/>
+<input type="text"  class="new_name form-control " placeholder="name"></input><br/>
+<input type="text"  class="new_info form-control" placeholder="info"></input><br/><br/>
+<button class="save btn btn-primary">done</button>
+<div class="people">
+<div class="name">
+<h2 class="person">jenifer</h2>
+<div class="details d_none">
+    <p>Im jenifer</p>
+</div>
+</div>
+<div class="name">
+<h2 class="person">priya</h2>
+        <div class="details d_none">
+            <p>name:priya<p>
+        </div>
+    </div>
+        <div class="name">
+                <h2  class="person">gayathri</h2>
+                <div class="details d_none">
+                    <p>Im gayathri</p>
+                </div>
+       </div>
+    <div class="name">
+            <h2  class="person">lavanya</h2>
+            <div class="details d_none">
+                <p>Im lavanya</p>
+            </div>
+    </div>
+</div>
+</boby>   
+</html>
