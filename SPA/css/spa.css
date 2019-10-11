@@ -1,0 +1,10 @@
+* {
+  margin:5px;
+  padding:2px;
+  box-sizing: border-box;
+}
+h2 {
+    display: block;
+    margin: 5px auto;
+    font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  }
