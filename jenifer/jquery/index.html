@@ -9,22 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function()
-{   
-        $(".people").on("click",".person",function()
-        { 
-        $(this).siblings(".details").toggleClass("d_none");
-        });
-    $(".save").click(function(){
-    let user_name=$(".new_name").val();
-    let user_details=$(".new_info").val();
-    let personHtml='<div class="name"><h2 class="person">'+user_name+'</h2><div class="details d_none"><p>'+user_details+'</p></div></div>';
-    $(".people").append(personHtml);
-});
-});
-
- </script>
+    <script src="sript/jquery.json" ></script>
 </head>
 <body>
 <h2 >jQuery program</h2><br/><br/>
