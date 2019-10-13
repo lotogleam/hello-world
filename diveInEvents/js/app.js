@@ -4,4 +4,10 @@ $(document).ready(function() {
     e.preventDefault();
     alert($(this).attr("color"));
   });
+
+  $(".toggle").click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $(this).siblings(".box").slideToggle();
+  }) 
 });
