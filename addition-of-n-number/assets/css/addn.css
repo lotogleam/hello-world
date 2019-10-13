@@ -14,4 +14,15 @@ body{
     color:red;
     font-size: 300px;
     text-shadow: 0px 25px 20px black;
+    animation-name: y;
+	animation-duration:40s;
+	animation-iteration-count:infinite;
 }
+/* @keyframe y{
+    from{
+        color:red;
+    }
+    to{
+        color:green;
+    }
+} */

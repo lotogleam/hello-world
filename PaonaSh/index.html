@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    </head>
+    <body>
+
+        <div class="inputname">
+            <input type="text" class="form-control user-name" placeholder="Enter your name"/>
+        </div>
+
+
+        <button class="btn btn-primary" onclick="displayname()">Display your Name</button>
+
+
+        <script>
+
+
+            var a=document.getElementsById("inputname")
+            var name=a.value;
+
+            
+            function displayname(){
+                alert("my name is"+name);
+            }
+
+
+        </script>
+    </body>
+</html>
