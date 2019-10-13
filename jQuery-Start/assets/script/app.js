@@ -3,6 +3,7 @@ $(document).ready(function(){
     //     $(this).hide();
     // });
     $(".people").on("click",".person-name",function(){
+        $(".person-details").addClass("d-none");
         $(this).siblings(".person-details").toggleClass("d-none");
     });
     $(".save").click(function(){
