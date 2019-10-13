@@ -1,0 +1,17 @@
+.first-div{
+    padding:50px;
+    background-color: red;
+}
+.second-div{
+    justify-content: center;
+    padding:50px;
+    background-color:blue;
+}
+.third-div{
+    justify-content: center;
+    padding:50px;
+    background-color:green;
+}
+.{
+    box-sizing: border-box;
+}
