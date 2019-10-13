@@ -1,0 +1,17 @@
+.box {
+  border: 1px solid #000;
+  padding: 40px;
+  color: #fff;
+}
+
+.red{
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
