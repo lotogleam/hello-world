@@ -1,9 +1,5 @@
 $(document).ready(function() {
-  setTimeout(function() {
-    initialize();
-  }, 1000);
-
-  alert("hello");
+  initialize();
   $("form[name='userInfo']").on("submit", function(e) {
     // Stop the default action of the submit button.
     e.preventDefault();
